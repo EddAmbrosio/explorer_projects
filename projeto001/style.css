@@ -1,7 +1,53 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
 }
 
+ #hero {
+  width: 592px;
+  margin: auto;
+  margin: 0em auto 4.6em; /*the ordem is top right bottom left*/
+ }
+
+ #hero img {
+  margin-bottom: 3.6em;
+ }
 h1 {
   font-family: 'Inter', sans-serif;
+  font-size: 3.0em;
+  line-height: 3.5em;
+  font-weight: normal;
+  margin-bottom: 2.0em;
+}
+
+h1 span {
+  font-weight: bold;
+}
+span, a {
+  color: #FF9900;
+}
+
+p, #footer {
+  color: #7d7987;
+  font-size: 0.9em;
+  line-height: 1.8em;
+}
+
+#footer a + a {
+  margin-left: 1.8em;
+
+}
+
+#line {
+  margin: 0em auto 0.5em;
+  width: 35.5em;
+  height: 0em;
+  border: 0.1em solid #eceff2;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0em;
+  right: 0em;
 }
