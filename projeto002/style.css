@@ -1,0 +1,71 @@
+body {
+  margin: 0em;
+  font-family: 'Open Sans', sans-serif;
+}
+.page {
+  width: 62.5em;
+  margin: 4em auto 0em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /*it align the elements inside the header in the main axis*/
+  margin-bottom: 3.5em; 
+  font-family: 'Mulish', sans-serif;
+}
+
+ul {
+  display: flex;
+  gap: 3em;
+  list-style: none;
+  margin: 0em;
+  padding: 0em;
+}
+
+ul li a:hover {
+  font-weight: bold;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #1f1534;
+}
+
+h1, ul {
+  font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 3.8em;
+  color: #1f1534;
+  font-weight: normal;
+  width: 30.6em;
+}
+
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+section p {
+  font-size: 1.8em;
+  line-height: 1.8em;
+  color: #7d7987;
+}
+
+button {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+  font-size: 0.8em;
+  line-height: 1.8em; 
+}
+
+footer a {
+  font-weight: bold;
+
+}
